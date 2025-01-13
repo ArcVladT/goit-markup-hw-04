@@ -378,12 +378,12 @@ a {
   background-color: #404bbf;
 }
 
-.card-content {
+.s-three-list .list-item {
   display: flex;
-  gap: 8px;
   flex-direction: column;
+  max-height: 168px;
+  gap: 8px;
   justify-content: center;
-  padding: 32px 0;
 }
 
 .s-three-list .list-item-three .item-h-three {
@@ -501,6 +501,10 @@ a {
   padding: 100px 0;
 }
 
+.footer-div .f-content-left {
+  margin-right: 120px;
+}
+
 .footer-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -536,6 +540,7 @@ a {
   justify-content: left;
   align-items: center;
   gap: 120px;
+  align-items: baseline;
 }
 
 .footer-div .f-content-right .footer-p {
@@ -544,6 +549,7 @@ a {
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #fff;
+  margin-bottom: 16px;
 }
 
 .footer-div .f-content-right .f-social-link-list {
@@ -561,6 +567,10 @@ a {
   align-items: center;
 }
 
+.f-content-right .f-social-link-list .list-item {
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .f-social-link-list .list-item .f-circle {
   border-radius: 50%;
   background-color: #4d5ae5;
@@ -575,6 +585,7 @@ a {
   width: 24px;
   height: 24px;
   display: inline-block;
+  fill: #f4f4fd;
 }
 
 .footer-div .f-content-right {
@@ -583,7 +594,8 @@ a {
   flex-direction: column;
 }
 
-.f-social-link-list .list-item .f-circle:hover {
+.f-social-link-list .list-item .f-circle:hover,
+.f-social-link-list .list-item .f-circle:focus {
   background-color: #31d0aa;
 }
 /* 
